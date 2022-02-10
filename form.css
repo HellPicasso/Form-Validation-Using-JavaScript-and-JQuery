@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Ubuntu&display=swap');
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #ffff53;
+}
+
+.container{
+    width: 500px;
+    margin: auto;
+    right: 50%;
+    left: 50%;
+    top: 50%;
+    background-color: rgb(65, 169, 201);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+}
+
+label{
+    width: 150px;
+    float: left;
+    top: 10px;
+    position: relative;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input{
+    width: 300px;
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 5px 5px 10px 5px;
+    margin-top: 2px;
+}
+
+#submitButton{
+    width: 100px;
+    margin-left: 50%;
+    margin-right: 50%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.results{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    right: 50%;
+    left: 50%;
+    top: 50%;
+    display: none;
+    text-align: center;
+    padding: auto;
+    border-radius: 5px;
+    vertical-align: middle;
+}
